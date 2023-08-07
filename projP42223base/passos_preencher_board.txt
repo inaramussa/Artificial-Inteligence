@@ -1,0 +1,10 @@
+1º preencher as linhas e colunas que têm valor 0 com água
+2º preencher as linhas e colunas que já tenham as suas restrições completas com água (exemplo: se temos uma linha de valor 3 e já temos três posições com peças de barcos, podemos preencher o resto com água)
+3º verificar quais as posições possiveis para o barco de 4 e guarda-las
+4º ver pista a pista aquilo que se pode completar:
+4.1º colocar água nas posições adjacentes à peça (ter atenção se a peça for um 'b', por exemplo, não se pode preencher a posição adjacente a cima com água)
+4.2º nas peças diferentes de 'c', colocar para além da água as peças dos barcos complementares (por exemplo, se for um 'b' sabemos que a posição em cima vai ser ou um 'm' ou um 't')
+5º caso o barco de 4 não tenha sido já encontrado verificar quais as posições possiveis guardadas inicialmente que continuam disponiveis e usa-las
+
+ATENÇÃO: à medida que vamos preenchendo as peças ter atenção à restrição do número de barcos que podemos ter de cada tipo; ou seja, se já pusemos 2 barcos de tamanho 3, não podemos construir mais nenhum de tamanho 3
+
